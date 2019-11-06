@@ -65,7 +65,7 @@ public class TestLink {
         System.out.println("====第一次push");
         System.out.println("====第一次push");
         System.out.println("====第一次push");
-        System.out.println("=====2次");
+        System.out.println("=====2次fgfhfgh");
         System.out.println("=======创建类型指定映射=======");
         XContentBuilder mappingBuilder = XContentFactory.jsonBuilder();
         mappingBuilder.startObject()
