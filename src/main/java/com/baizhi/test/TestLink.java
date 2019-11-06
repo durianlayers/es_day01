@@ -59,6 +59,7 @@ public class TestLink {
         CreateIndexResponse indexResponse = transportClient.admin().indices().prepareCreate("dangdang").execute().get();
         System.out.println(indexResponse.index());
 
+        System.out.println("====第一次push");
         System.out.println("=======创建类型指定映射=======");
         XContentBuilder mappingBuilder = XContentFactory.jsonBuilder();
         mappingBuilder.startObject()
